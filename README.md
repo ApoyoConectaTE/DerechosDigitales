@@ -1,16 +1,13 @@
-## Hi there 👋
+## ¡Hola! Este README proporciona los detalles de acceso para la cuenta de GitHub apoyoconectate.
 
-<!--
-**ApoyoConectaTE/apoyoconectate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🔑 Datos de Acceso
+Aquí tienes la información que necesitas para iniciar sesión:
 
-Here are some ideas to get you started:
+- Nombre de usuario (Username): apoyoconectate
+- Correo electrónico (Email): apoyoconectate@uniandes.edu.co
+- Contraseña (Password): C******13
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔐 Autenticación de Dos Factores (2FA)
+La autenticación de dos factores (2FA) está configurada para mayor seguridad. Para el código, por favor contacta a:
+
+- Responsable 2FA: js.preciado
