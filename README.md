@@ -1,13 +1,3 @@
-## 隆Hola! Este README proporciona los detalles de acceso para la cuenta de GitHub apoyoconectate.
+## Flipbook de derechos digitales
 
-### 馃攽 Datos de Acceso
-Aqu铆 tienes la informaci贸n que necesitas para iniciar sesi贸n:
-
-- Nombre de usuario (Username): apoyoconectate
-- Correo electr贸nico (Email): apoyoconectate@uniandes.edu.co
-- Contrase帽a (Password): C******13
-
-### 馃攼 Autenticaci贸n de Dos Factores (2FA)
-La autenticaci贸n de dos factores (2FA) est谩 configurada para mayor seguridad. Para el c贸digo, por favor contacta a:
-
-- Responsable 2FA: js.preciado
+Usa las librerías Turn.js versión 4 y Panzoom.
