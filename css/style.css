@@ -5,11 +5,12 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
+  overflow: hidden;
 }
 
 #flipbook {
-  width: 100% !important;
-  height: 100vh !important;
+  width: 80vw !important;
+  height: 95vh !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,9 +37,25 @@ body {
 
 .page {
   position: relative;
-  overflow: hidden;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-wrapper img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 .corner {
   position: absolute;
   width: 40px;
@@ -75,7 +92,7 @@ body {
 }
 
 .nav-arrow {
-  position: fixed;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 24px;
@@ -88,11 +105,11 @@ body {
 
 
 .left-arrow {
-  left: 10px;
+  left: 140px;
 }
 
 .right-arrow {
-  right: 10px;
+  right: 140px;
 }
 
 .nav-arrow:hover {
