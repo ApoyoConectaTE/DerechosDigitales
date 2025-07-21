@@ -9,8 +9,9 @@ body {
 }
 
 #flipbook {
+  aspect-ratio: 16 / 9;
   width: 80vw !important;
-  height: 95vh !important;
+  height: auto !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +35,7 @@ body {
   touch-action: none;
   transition: transform 0.3s ease;
 }
+
 
 .page {
   position: relative;
@@ -91,25 +93,35 @@ body {
   transform: rotate(270deg) rotateY(180deg);
 }
 
+.flipbook-wrapper {
+  position: relative;
+  width: 80vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 24px;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
   z-index: 1000;
   user-select: none;
-  transition: opacity 0.3s;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 10px;
 }
 
-
 .left-arrow {
-  left: 140px;
+  left: -60px; /* ajusta según el espacio que quieras fuera del flipbook */
 }
 
 .right-arrow {
-  right: 140px;
+  right: -60px;
 }
 
 .nav-arrow:hover {
