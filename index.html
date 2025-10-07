@@ -127,6 +127,7 @@
 
 				// Inicializar Panzoom en cada imagen
 				document.querySelectorAll('#flipbook img').forEach(img => {
+					console.log(img);
 					const panzoom = Panzoom(img, {
 						maxScale: 3,
 						contain: 'outside'
