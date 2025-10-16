@@ -9,13 +9,15 @@ body {
 }
 
 #flipbook {
-  aspect-ratio: 16 / 9;
-  width: 80vw !important;
+  aspect-ratio: 22 / 17;
+  width: 65vw !important;
   height: auto !important;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 #flipbook .page {
@@ -63,6 +65,7 @@ body {
   width: 40px;
   height: 40px;
   background: linear-gradient(135deg, #999 0%, transparent 100%);
+  -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 100% 100%);
   pointer-events: none;
   z-index: 10;
@@ -117,11 +120,11 @@ body {
 }
 
 .left-arrow {
-  left: -60px; /* ajusta según el espacio que quieras fuera del flipbook */
+  left: 60px; /* ajusta según el espacio que quieras fuera del flipbook */
 }
 
 .right-arrow {
-  right: -60px;
+  right: 60px;
 }
 
 .nav-arrow:hover {
