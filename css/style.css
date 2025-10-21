@@ -1,5 +1,7 @@
 body {
-  background: #eee;
+  background: #eee; /* o transparent si el iframe tiene fondo */
+  padding: 0;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +12,10 @@ body {
 
 #flipbook {
   aspect-ratio: 22 / 17;
-  width: 75vw !important;
-  height: auto !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,11 +124,11 @@ body {
 }
 
 .left-arrow {
-  left: 60px; /* ajusta según el espacio que quieras fuera del flipbook */
+  left: 0px; /* ajusta según el espacio que quieras fuera del flipbook */
 }
 
 .right-arrow {
-  right: 60px;
+  right: 0px;
 }
 
 .nav-arrow:hover {
