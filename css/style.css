@@ -102,8 +102,8 @@ body {
 
 .flipbook-wrapper {
   position: relative;
-  width: 90vw;
-  height: 100vh;
+  width: 85vw;
+  height: 95vh;
   margin: 0;
   padding: 0;
   display: flex;
