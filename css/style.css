@@ -10,7 +10,7 @@ body {
 
 #flipbook {
   aspect-ratio: 22 / 17;
-  width: 65vw !important;
+  width: 75vw !important;
   height: auto !important;
   display: flex;
   align-items: center;
